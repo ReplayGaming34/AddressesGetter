@@ -3,9 +3,6 @@ import os
 import sys
 import subprocess
 from geopy.distance import geodesic
-import folium
-import webbrowser
-import tempfile
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
 import threading
@@ -14,7 +11,7 @@ import random
 import shutil
 
 # --- Auto Install Dependencies ---
-required_libs = ["geopy", "folium", "opencage"]
+required_libs = ["geopy", "opencage"]
 for lib in required_libs:
     try:
         __import__(lib)
