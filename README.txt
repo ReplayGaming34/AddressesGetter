@@ -6,9 +6,14 @@ This is a really niche software I wrote for my friend, he needed something that 
 
 
 PRIOR TO RUNNING THE PROGRAM:
-	In the program files you cloned there's a folder marked Images, copy the images you'd like to alter into that folder
+	In the program files you cloned there's a folder marked Images, copy the images you'd like to alter into that folder, I've included 5 sample images
 
+	
+	to run as an .exe make sure you have pyinstaller installed, if not run pip install pyinstaller on cmd
+	
+	then to make it an executable run pyinstaller --onefile -w "PATH TO FILE"
 
+after turning it into an executable follow the instructions
 
 INSTRUCTION OF USE:
 
